@@ -1,0 +1,10 @@
+@"
+.venv/
+*.pkl
+datasets/
+.idea/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+"@ | Out-File -Encoding utf8 .gitignore
